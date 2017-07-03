@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+.main{ width: 1190px; margin: 10px auto 20px;}
+.advmsg_manage .box_1{ width: 998px;}
+.display_none{ display: none;}
+/*部门机构管理1*/
+.orgaManage1 .box1_title{color:#666; height:40px; line-height:40px;}
+.orgaManage1 .box1_title input{margin-left:10px;  border:1px solid #DDD;height:22px;line-height:22px; padding:0 10px;}
+.orgaManage1 .cont_list{width:97.4%; padding:22px 0 20px; margin:0 auto;}
+.orgaManage1 .cont_left{ width:202px; margin-right:7px; display:inline;float:left; height:736px;}
+.orgaManage1 .cont_box{ border:1px solid #DDD; overflow: hidden;}
+.orgaManage1 .cont_left .cont_box{ width: 200px; height:730px;overflow:auto;}
+.orgaManage1 .cont_title{height:36px;line-height:36px;background:#F7F7F7; padding-left:18px;}
+.orgaManage1 .cont_right{width:762px; float:left;}
+.orgaManage1 .cont_right .cont_box{ width: 760px; height:730px;}
+.orgaManage1 .cont_right .box2_title{ height:43px; line-height:54px;overflow:hidden; border-bottom:2px solid #ddd; width:95%; margin-left:26px;}
+.orgaManage1 .box2_content{padding-top:30px;}
+.orgaManage1 .info_box{ padding-bottom:30px;}
+.orgaManage1 .check span{ margin:0 15px;}
+.orgaManage1 .check input{cursor: pointer;margin: 5px 10px 0 0;}
+.orgaManage1 .text_address{ margin-right: 3px;}
+.orgaManage1 .btns{ padding: 0;}
+.orgaManage1 .box2_title input{ width: 50px; height: 24px; font-size: 12px; margin-right: 5px;}
+
+/*部门机构 弹框*/
+.grey_box.Branch1{ width: 790px; height:1000px;}
+.grey_box.Branch1 .info_box{ width: 780px; margin-left: 33px;margin-top: 15px; padding: 0px 0;}
+.grey_box.Branch1 .box_1{ width: 750px; margin: 100px;}
+.grey_box.Branch1 .data_list .data_box span{ height: 35px; line-height: 35px;}
+.grey_box.Branch1 .data1{ width: 140px;}
+.grey_box.Branch1 .data2{ width: 260px;}
+.grey_box.Branch1 .data3{ width: 320px;}
+.grey_box.Branch2{ width: 790px; height:600px;}
+
+
+

@@ -1,0 +1,237 @@
+@CHARSET "UTF-8";
+
+body, h1,h2, h3,h4,h5,h6, ul,ol, li, dl, dt, dd, form, input, strong, span, p, th, tr, td, label, img , i{ margin:0; padding:0; list-style:none; font-family:"微软雅黑"; color:#666;}
+body{ font-size: 12px;}
+a, a:link{ text-decoration:none; color: #135DBB; cursor: pointer;}
+a:hover{ text-decoration: underline;}
+a:active{ background:none; outline:none;}
+img{ border:none;}
+input{ outline:none; resize:none;}
+/* input::-ms-clear{display:none;} */
+.display_none{ display: none;}
+iframe{ float: right;}
+
+/*公用的列表没数据时的提示居中*/
+.center{text-align:center;}
+
+
+
+/* 公用width */
+.width50{ width: 50px;}
+.width53{ width: 53px;} 
+.width55{ width: 55px;}
+.width65{ width: 65px;}
+.width67{ width: 67px;}
+.width70{ width: 70px;}
+.width80{ width: 80px;}
+.width85{ width: 85px;}
+.width75{ width: 75px;}
+.width95{ width: 95px !important;}
+.width105{ width: 105px;}
+.width115{ width: 115px;}
+.width125{ width: 125px;}
+.width130{ width: 130px;}
+.width135{ width: 135px;}
+.width140{ width: 140px;}
+.width145{ width: 145px;}
+.width170{ width: 170px;}
+.width175{ width: 175px;}
+.width185{ width: 185px;}
+.width195{ width: 195px;}
+.width205{ width: 205px;}
+.width225{ width: 225px;}
+.width245{ width: 245px;}
+.width250{ width: 250px;}
+.width255{ width: 255px;}
+.width275{ width: 275px;}
+.width300{ width: 300px;}
+.width277{ width: 277px;}
+.width295{ width: 295px;}
+.width345{ width: 345px;}
+.width361{ width: 361px;}
+.width410{ width: 410px;}
+.width420{ width: 420px;}
+.width430{ width: 430px;}
+.width480{ width: 480px;}
+.width485{ width: 485px;}
+.width510{ width: 510px;}
+.width520{ width: 520px;}
+.width580{ width: 580px;}
+.width600{ width: 600px;}
+.width610{ width: 610px;}
+.width710{ width: 710px;}
+.width795{ width: 795px;}
+.width815{ width: 815px;}
+.width870{ width: 870px;}
+
+/* 颜色 */
+.color_red, .color_red *{ color: #ff0000;}
+.color_blue, .color_blue *{ color: #004ea1;}
+.color_green, .color_green *{ color:#00CC00;}
+.color_orange, .color_orange *{ color: #F08A12;}
+.color_666, .color_666 *{ color:#333;}
+.big_orange{color: #F08A12;font-size:20px;}
+
+
+/* 清除浮动 */
+.clear, .data_box, .info_box, ul, dl{ zoom:1}
+.clear:after, .data_box:after, .info_box:after, ul:after, dl:after{ content:''; display:block; clear:both;}
+
+/* 去除border */
+.no_border{ border: none !important;}
+.border{border:1px solid #ddd;}
+.border_top{border-top:1px solid #ddd;}
+.border_left{border-left:1px solid #ddd;}
+.border_right{border-right:1px solid #ddd;}
+.border_bottom{border-bottom:1px solid #ddd;}
+
+
+/* 星标记 */
+.star{ color: #FF0000; margin-left: 3px}
+
+/* 文本框 */
+input.text{ height: 22px; line-height:22px; border:1px solid #ddd; padding-left:5px;}
+
+
+/* 文本框禁用 */
+.text_disable{ background-color: #f7f7f7 !important;}
+
+/* 选项卡 */
+.tab_title{ width: 100%; height: 30px; border-bottom: 1px solid #dcdcdc; color: #666; position: relative;}
+.tab_title .titles{ height: 30px; position: absolute; bottom: 0;}
+.tab_title .title{ width: 98px; height: 29px; border: 1px solid #dcdcdc; border-bottom: none; text-align: center; line-height:29px; color: #666; float: left; cursor: pointer;}
+.tab_title .title.visited{  background-color: #fafafa; color:#333; height: 30px;}
+.tab_title .more{ font-size:12px; float: right; margin: 5px 40px 0 0;}
+
+/* 按钮.btn_gray_h30{ height: 30px; border: 1px solid #eee; background: url(../../images/trade/bnt_gray_h30.png) repeat-x; border-radius: 3px; -moz-border-radius: 3px; color:#333; cursor: pointer;} */
+.btn_yellow{ border: 1px solid #FF6401; background-color: #FF8700; border-radius: 3px; -moz-border-radius: 3px; color: #fff; cursor: pointer;}
+.btn_yellow:hover{ background-color: #FFA200;}
+
+/* 禁用按钮 */
+.disabled, .disabled:hover{ border: 1px solid #E8E8E8; background:#f7f7f7; color: #666; cursor: default; }
+
+/* 上传控件 */
+.file-box{width:200px; height: 24px; }
+.file-box input.text{float:left; vertical-align:middle;}
+.file-box .btn{ height: 24px; border: 1px solid #eee; background-color: #F7f7f7; margin-left: 5px; font-size: 12px; color:#333;}
+.file-box input.file{ width:200px; height:24px; float: left; margin-top: -24px !important; filter:alpha(opacity:0); opacity: 0; position: relative; z-index: 2;}
+
+
+/* 错误提示 */
+label.error{ font-size:12px; color: red; position: absolute; left:0; bottom:-7px; line-height: 0; z-index: 10; white-space:nowrap;}
+.error_po{ float: none !important; position: relative;}
+/* box */
+.box_1{ border: 1px solid #ddd;}
+.box_1 .box1_title{ width: 100%; height: 30px; background-color: #f7f7f7; border-bottom: 1px solid #ddd; line-height: 30px; font-size: 14px; text-indent: 10px; position: relative;}
+.box_1 .box1_title .btn_gray, .box_1 .box1_title .btn_yellow{ width: 50px; height: 24px; margin-right: 15px; font-size: 12px;}
+.box_1 .box1_title .arrows{ width: 20px; height: 11px; background: url("../../images/trade/box1_title_arrows.png") no-repeat; position: absolute;}
+.box_1 .box1_title .more{ color: #004ea1; font-size: 12px; float: right; margin-right: 5px;}
+.box_2 .box2_title{ width: 100%; height: 30px; border-bottom: 1px solid #e8e8e8; line-height: 30px; font-size: 14px; text-indent: 10px; position: relative;}
+.box_2 .box2_title .operation{ height: 14px; position: absolute; top: 9px; left: 110px;}
+.box_2 .box2_title .operation a{ text-indent: 0; float: left; margin-right: 35px;}
+.box_2 .box2_title .more{ color: #004ea1; font-size: 12px; float: right; margin-right: 5px;}
+.box_2 .box2_content{ border: 1px solid #e8e8e8;}
+.box_3 .box3_title{ width: 100%; height: 30px; border-bottom: 2px solid #0079D6; font-size: 16px; color:#333; position: relative;}
+.box_3 .box3_title .arrows{ width: 15px; height: 8px; background: url("../../images/trade/box3_title_arrows.png") no-repeat; position: absolute; left: 25px; bottom: -2px;}
+.box_3 .box3_title .more{ color: #004ea1; font-size: 12px; float: right; margin-right: 5px;}
+.box_3 .box3_content{ border: 1px solid #e8e8e8;}
+
+/* info_box */
+.info_box{ width: 100%; height: 24px;}
+.info_box .box_title{ height: 24px; line-height: 24px; text-align: right; float: left;}
+.info_box .box_text{ height: 24px; line-height: 24px; float: left;}
+.info_box .box_text .box_text{ position: relative;}
+.info_box .box_text .address_span{ float: left; position: relative;}
+.info_box .box_text .address_span .error{ left: 3px;}
+.info_box .box180{ width: 180px; float: left;}
+.info_box .box180 .box_title{ width: 80px;}
+.info_box .box180 .box_text{ width: 100px;}
+.info_box .box253{ width: 253px; float: left;}
+.info_box .box253 .box_title{ width: 90px;}
+.info_box .box253 .box_text{ width: 163px;}
+.info_box .box260{ width: 260px; float: left;}
+.info_box .box260 .box_title{ width: 90px;}
+.info_box .box260 .box_text{ width: 170px;}
+.info_box .box285{ width: 285px; float: left;}
+.info_box .box285 .box_title{ width: 90px;}
+.info_box .box285 .box_text{ width: 195px;}
+.info_box .box310{ width: 310px; float: left;}
+.info_box .box310 .box_title{ width: 90px;}
+.info_box .box310 .box_text{ width: 220px;}
+.info_box .box332{ width: 332px; float: left;}
+.info_box .box332 .box_title{ width: 90px;}
+.info_box .box332 .box_text{ width: 242px;}
+.info_box .box370{ width: 370px; float: left;}
+.info_box .box370 .box_title{ width: 90px;}
+.info_box .box370 .box_text{ width: 310px;}
+.info_box .box425{ width: 425px; float: left;}
+.info_box .box425 .box_title{ width: 90px;}
+.info_box .box425 .box_text{ width: 335px;}
+.info_box .box465{ width: 465px; float: left;}
+.info_box .box465 .box_title{ width: 90px;}
+.info_box .box465 .box_text{ width: 375px;}
+.info_box .box499{ width: 499px; float: left;}
+.info_box .box499 .box_title{ width:179px;}
+.info_box .box499 .box_text{ width: 320px;}
+.info_box .box507{ width: 507px; float: left;}
+.info_box .box507 .box_title{ width: 60px;}
+.info_box .box507 .box_text{ width: 440px;}
+.info_box .box510{ width: 510px; float: left;}
+.info_box .box510 .box_title{ width: 90px;}
+.info_box .box510 .box_text{ width: 420px;}
+.info_box .box580{ width: 580px; float: left;}
+.info_box .box580 .box_title{ width: 50px;}
+.info_box .box580 .box_text{ width: 530px;}
+.info_box .box620{ width: 620px; float: left;}
+.info_box .box620 .box_title{ width: 90px;}
+.info_box .box620 .box_text{ width: 530px;}
+.info_box .box700{ width: 700px; float: left;}
+.info_box .box700 .box_title{ width: 90px;}
+.info_box .box700 .box_text{ width:610px;}
+.info_box .box750{ width: 750px; float: left;}
+.info_box .box750 .box_title{ width:150px;}
+.info_box .box750 .box_text{ width:600px;}
+.info_box .box800{ width: 800px; float: left;}
+.info_box .box800 .box_title{ width:90px;}
+.info_box .box800 .box_text{ width:710px;}
+.info_box .box760{ width: 760px; float: left;}
+.info_box .box760 .box_title{ width: 90px;}
+.info_box .box760 .box_text{ width: 670px;}
+.info_box .box930{ width: 930px; float: left;}
+.info_box .box930 .box_title{ width: 90px;}
+.info_box .box930 .box_text{ width: 840px;}
+.info_box .box998{ width: 998px; float: left;}
+.info_box .box998 .box_title{ width: 179px;}
+.info_box .box998 .box_text{ width: 800px;}
+.info_box .box998 .long_text{margin-left:6px; height:24px; line-height:24px; border:1px solid #DDD; float:left;}
+
+.info_box input.text, .info_box .text_address, .info_box .text_date, .info_box .text_website, .info_box .spinner, .info_box .word, .info_box .file-box{ float: left;}
+.info_box .unit{ float: left; margin-left: 3px;}
+.info_box .star{ height: 24px; line-height: 27px; float: left;}
+.info_box .btn input{ width: 80px; height: 26px; float: left;}
+.info_box .box260.btn .btn_yellow{ margin: 0 20px 0 50px;}
+.info_box .box332.btn .btn_yellow{ margin: 0 20px 0 112px;}
+
+/* 表格 */
+table{ border-collapse: collapse; margin: 0; background:#fff;}
+table td, table tr{ border: 1px solid #e8e8e8;}
+table th{ font-weight: normal;}
+
+
+
+
+/* 数据列表鼠标经过变色 */
+.data_list .data_box.hover{ background-color: #DDEEFF;}
+/*没有数据时的样式*/
+.no_data{ height: 60px; line-height: 60px; text-align:center}
+
+/*超出内容部分用省略号*/
+.txt_apostrophe{word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/* 列表无数据样式*/
+.data_list .nodata{ width: 100%; height: 45px; line-height: 45px; text-align: center; color: #999999; font-size: 12px;}
+.data_list .nodata.height60{ height: 60px;}
+.last_line_long{ width:100%; border:1px solid #DDD;overflow: hidden;}
+
+/*普通查询*/
+.advanced_select{display:none;}

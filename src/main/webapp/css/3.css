@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+#mm{
+	font-size:16px;	
+}
+
+#mm input{
+	border:none;
+	border-bottom: 1.3px solid #6ba3f5;
+	line-height: 22px;
+}
+.lb{
+	margin-right:77px;
+}
+#m{
+	margin-right:50px;
+	font-size:15px;
+	line-height:22px;
+	height:25px;
+	width:80px;
+	background:#ffffff;
+	border:1px solid #c8c8c8;
+}
+#r{
+	height:25px;
+	font-size:15px;
+	line-height:22px;
+	height:25px;
+	width:80px;
+	background:#ffffff;
+	border:1px solid #c8c8c8;
+}
+#m:hover, #r:hover{
+	border:1.3px solid #6ba3f5;
+}

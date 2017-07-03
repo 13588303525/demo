@@ -1,0 +1,69 @@
+*{
+	margin: 0;	
+	padding: 0;
+}
+body{
+	margin: 0;
+    padding: 0;
+    background: url('image/2.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image/2.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image/2.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+#title{
+	font-size: 22px;
+	color: gray;
+	float: left;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	padding-left: 15px;
+	background: white;
+
+}
+#bottom{
+	width: 100%;
+	height: 300px;
+	color: white;
+	margin: auto;
+	padding-top: 140px;
+}
+#bottom .wordt{
+	font-size: 42px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#bottom .bot{
+	width: 100%;
+	height: 120px;
+	margin:auto;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	background-color: gray;
+	padding-top: 60px;	
+	background-color: rgba(0,0,0,0.3);
+	padding-left: 400px;
+}
+#bottom .bot a {
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 100px;
+	border: 1px solid white;
+	border-radius: 10px;
+	float: left;
+	text-decoration: none;
+	color: #003399;
+	background-color: white;
+}
+#bottom .bot a:hover{
+	color: white;
+	background-color: #003399;
+}
